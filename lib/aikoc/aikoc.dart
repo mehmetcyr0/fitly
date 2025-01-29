@@ -33,7 +33,7 @@ class AiKocScreen extends StatefulWidget {
 class _AiKocScreenState extends State<AiKocScreen> {
   final TextEditingController _userInput = TextEditingController();
 
-  static const apiKey = "AIzaSyBw28JS67ArnvETFAR-7BH4k_OSDuB4YUQ";
+  static const apiKey = "apiKey";
 
   final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
 
