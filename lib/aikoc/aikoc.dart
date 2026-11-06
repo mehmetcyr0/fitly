@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:intl/intl.dart';
 
+import 'api_keys.dart';
+
 void main() {
   runApp(const AiKoc());
 }
@@ -33,9 +35,9 @@ class AiKocScreen extends StatefulWidget {
 class _AiKocScreenState extends State<AiKocScreen> {
   final TextEditingController _userInput = TextEditingController();
 
-  static const apiKey = "AIzaSyBw28JS67ArnvETFAR-7BH4k_OSDuB4YUQ";
+  static const apiKey = geminiApiKey;
 
-  final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
+  final model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: apiKey);
 
   final List<Message> _messages = [];
 
