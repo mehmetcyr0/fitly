@@ -1,16 +1,12 @@
-# fitly
+# 🏋️‍♂️ Fitly - Kişisel AI Antrenörünüz AIKOC
 
-A new Flutter project.
+**Fitly**, adım takibi, kalori hesaplama ve antrenman planlaması yapmanıza yardımcı olan bir mobil sağlık ve fitness uygulamasıdır. Uygulamanın yapay zeka destekli antrenörü **AIKOC**, size özel rehberlik sunar.
 
-## Getting Started
+## 🚀 Özellikler
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **🏃‍♂️ Adım Sayar**: Günlük adım sayınızı takip edin.
+- **🔥 Kalori Hesaplayıcı**: Günlük yaktığınız kaloriyi öğrenin.
+- **🧮 VKİ Hesaplama**: Vücut Kitle İndeksinizi hesaplayın.
+- **💪 Antrenman Programları**: Daha önce kaydedilmiş belli başlı egzerzersizlere erişebilirsiniz 
+- **🥗 Beslenme Takibi**: Yemek öğelerini kaydederek sağlıklı beslenmeyi teşvik edin.
+- **🤖 AIKOC isimli yapay zeka koçu ile beslenme ve antrenman için yardım alabilirsiniz
